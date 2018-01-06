@@ -13,11 +13,20 @@ h3 {
 p {
   font-size: 14px;
 }
-.nav {
-  list-style-type: none;
-  background-image: url("./images/the-flatiron-building.png");
+#hero{
+  background-image: url("../images/the-flatiron-building.png");
   background-size: cover;
   background-position: center;
+}
+#hero h1{
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+#hero li{
+  list-style-type: none;
+}
+#hero a{
   font-size: 18px;
   color: white;
 }
@@ -29,12 +38,13 @@ p {
   font-size: 23px;
   font-weight: bold;
   color: white;
-  background-image: url("./images/the-flatiron-building.png");
+  background-image: url("../images/the-flatiron-building.png");
 }
 #footer {
   background-color: dimgray;
   text-align: left;
+}
+#footer a {
   color: white;
   font-size: 18px;
-
 }
